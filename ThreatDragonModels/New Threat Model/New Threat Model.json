@@ -16,7 +16,444 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.0.10",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 90,
+              "y": 210
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "User"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "41a99a21-ff44-4233-90d3-70263738e2e9",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Flow",
+              "name": "User",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "773bea15-1051-4704-b75e-c374d5b8a0a0",
+            "source": {
+              "cell": "41a99a21-ff44-4233-90d3-70263738e2e9"
+            },
+            "target": {
+              "x": 370,
+              "y": 240
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "175da4b0-0c64-4039-8956-af2cc91e4d9d",
+            "source": {
+              "cell": "99d7feae-d282-48ac-9ad3-7870b659151d"
+            },
+            "target": {
+              "cell": "289b473a-a959-46fd-98a7-965c5a499847"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "a4bbe93e-efdb-495f-bb5c-88bc9c0b59b4",
+            "source": {
+              "cell": "289b473a-a959-46fd-98a7-965c5a499847"
+            },
+            "target": {
+              "cell": "7cd09189-1e59-4389-a7ac-b7391bbd315c"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "6cfed3d0-10e9-4c7e-a10f-1784640a329a",
+            "source": {
+              "cell": "7cd09189-1e59-4389-a7ac-b7391bbd315c"
+            },
+            "target": {
+              "cell": "27f501ba-94de-4133-bf8a-463d795c1289"
+            }
+          },
+          {
+            "position": {
+              "x": 331,
+              "y": 190
+            },
+            "size": {
+              "width": 170,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Audio Data\n"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "99d7feae-d282-48ac-9ad3-7870b659151d",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "Audio Data\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 581,
+              "y": 353.0000000000003
+            },
+            "size": {
+              "width": 120,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Speakers"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "289b473a-a959-46fd-98a7-965c5a499847",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Flow",
+              "name": "Speakers",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false
+            }
+          },
+          {
+            "position": {
+              "x": 760,
+              "y": 300
+            },
+            "size": {
+              "width": 190,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "Alexa /\n Google Home / \nSiri"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "7cd09189-1e59-4389-a7ac-b7391bbd315c",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Process",
+              "name": "Alexa /\n Google Home / \nSiri",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 230,
+              "y": 170
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Listening"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "017ee2f9-6ece-468e-b514-280f172a72d8",
+            "zIndex": 15,
+            "data": {
+              "type": "tm.Text",
+              "name": "Listening",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 501,
+              "y": 280
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Send\n"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "7c24a7a2-78a9-4a44-aab9-887de9512355",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Text",
+              "name": "Send\n",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 682,
+              "y": 330
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Transfer"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "f1f145d6-5e2e-4c4f-98cd-6b7d66ed8ce3",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Text",
+              "name": "Transfer",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 980,
+              "y": 269.99999999999983
+            },
+            "size": {
+              "width": 270,
+              "height": 190
+            },
+            "attrs": {
+              "text": {
+                "text": "Tampered electronic device \nconnected through \nthe intelligent assistant"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "27f501ba-94de-4133-bf8a-463d795c1289",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false
+            }
+          },
+          {
+            "position": {
+              "x": 909,
+              "y": 290
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Tamper"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "0abf063d-7fb6-4468-aded-9095d4fd5c74",
+            "zIndex": 19,
+            "data": {
+              "type": "tm.Text",
+              "name": "Tamper",
+              "hasOpenThreats": false
+            }
+          }
+        ]
       }
     ],
     "diagramTop": 1,
